@@ -1,0 +1,233 @@
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+body {
+    color:#333333;
+}
+
+.nav-menu ul li {
+    display:inline;
+    margin-left: 20px;
+}
+
+.nav-menu ul {
+
+    font-size: 1.2rem;
+
+}
+
+
+.logotipo {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    position: relative;
+}
+
+.nav-menu {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.nav-menu a {
+    color:darkslategray;
+}
+
+.nav-menu a:hover {
+    color: rgb(53, 238, 238);
+ }
+
+.sacola {
+    background: url(/source/ovni.png) no-repeat top right;
+    background-size: contain;
+    font-size: 1rem;
+    padding-right: 50px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.busca {
+    width: 147px;
+    background-color: #c9c6c6;
+    
+}
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+
+    width: 170px;
+}
+
+#lupa {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+
+.menu-departamentos a {
+    color:#333333;
+    text-decoration: none;
+}
+
+.painel {
+    margin: 5px 0;
+    padding: 10px;
+    width: 445px;
+    text-align: center;
+
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.painel img {
+    width: 140px;
+    height: 140px;
+}
+
+.novidades {
+    background: rgb(240,53,53);
+    background: linear-gradient(180deg, rgba(240,53,53,1) 17%, rgba(114,175,255,1) 100%); 
+    border-radius: 15px;
+    border-color: black;
+    float: left;
+}
+
+.mvend {
+    background: rgb(114,175,255);
+    background: linear-gradient(0deg, rgba(114,175,255,1) 17%, rgba(0,255,130,1) 100%); 
+    border-radius: 15px;
+    float: right;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+
+    transition: transform .1s linear;
+}
+
+.painel li:hover {
+    background-color: white;
+    border: 2px solid black ;
+    transform: scale(1.1);
+}
+
+.painel h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: url(/source/fundo-rodape.png);
+    display: block;
+    clear: both;
+    padding: 10px 0;
+    overflow: auto;
+
+}
+
+footer .container {
+    position: relative;
+}
+
+#logo-footer {
+    width: 80px;
+    height: 80px;
+    filter: invert(100%);
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding: 5px;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    height: 50px;
+    width: 50px;
+
+    display: block;
+    text-indent: -9999px;
+    background-size: contain;
+}
+
+.social a[href*="facebook.com"]{
+    background-image: url(/source/facebook.png);
+
+}
+
+.social a[href*="twitter.com"]{
+    background-image: url(/source/twitter.png);
+
+}
+
+.social a[href*="instagram.com"]{
+    background-image: url(/source/instagram.png);
+
+}
