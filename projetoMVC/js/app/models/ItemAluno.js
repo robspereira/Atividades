@@ -86,13 +86,16 @@ class ItemAluno {
     getFinal() {
 
         if (this._fezfinal == "nao") {
-            return "Não fez final";
+
+            return this.getMedia();
+            
         }
 
 
         if(this._fezfinal == "sim") {
             return (this.getMedia() + this._final)/2 
         }
+
 
 
     }
