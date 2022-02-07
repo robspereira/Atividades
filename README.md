@@ -1,2 +1,2 @@
 # Atividades
-Códigos de diversas atividades realizadas durante o curso superior
+Códigos de diversas atividades realizadas para praticar 
