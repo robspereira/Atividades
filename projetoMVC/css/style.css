@@ -1,0 +1,37 @@
+body {
+
+    color: white;
+    background-color: rgb(39, 5, 71);
+}
+
+h1 {
+
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#btnCadastro {
+    margin-bottom: 2rem;
+    background-color: rgb(190, 123, 253);
+    border-color: rgb(162, 72, 247);
+    color:black;
+}
+
+#btnCadastro:hover {
+    background-color: rgb(164, 79, 243);
+}
+
+table, td, th, tr, tbody {
+    color: white;
+}
+
+tbody:hover {
+
+    background-color: rgb(12, 52, 161);
+}
+
+main {
+    padding: 2rem;
+    background-color: rgb(99, 40, 155);
+    border-radius: 0.5rem;
+}
