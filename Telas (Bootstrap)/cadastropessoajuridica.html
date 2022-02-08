@@ -364,41 +364,43 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-5">
-                                        <label for="nome_pessoa_fisica"> Nome Completo</label>
-                                        <input type="text" class="form-control" name="nome_pessoa_fisica" placeholder="Nome" required>
-                                    </div>      
+                                        <label for="razao_social_pessoa_juridica">Razão Social</label>
+                                        <input type="text" class="form-control" name="razao_social_pessoa_juridica" placeholder="Razão Social" required>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-xl-4">
+                                        <label for="nome_fantasia_pessoa_juridica">Nome Fantasia</label>
+                                        <input type="text" class="form-control" name="nome_fantasia_pessoa_juridica" placeholder="Nome Fantasia" required>
+                                    </div> 
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="data_de_nascimento_pessoa_fisica"> Data de Nascimento</label>
-                                        <input type="date" class="form-control" name="data_de_nascimento_pessoa_fisica" placeholder="2022-2-2" required>
+                                        <label for="data_de_fundacao_pessoa_juridica"> Data de Fundação</label>
+                                        <input type="date" class="form-control" name="data_de_fundacao_pessoa_juridica" required>
                                     </div>
-
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="sexo"> Sexo </label>
-                                        <select class="form-control" name="sexo" aria-label="Sexo" required>
-                                            <option selected disabled>Escolha aqui</option>
-                                            <option value="masculino"> Masculino </option>
-                                            <option value="feminino"> Feminino </option>
-                                        </select>                                            
-                                    </div>
-                
+    
                                 </div>
 
                                 <div class="form-row">
 
-                                    <div class="col-xl-4 col-lg-4">
-                                            <label for="nome_da_mae_pessoa_fisica"> Nome da Mãe </label>
-                                            <input type="text" class="form-control" name="nome_da_mae_pessoa_fisica" placeholder="Nome da mãe" required>
+                                    <div class="col-xl-3 col-lg-3">
+                                            <label for="tipo_empresa_pessoa_juridica">Tipo de Empresa</label>
+                                            <input type="text" class="form-control" name="tipo_empresa_pessoa_juridica" placeholder="Tipo de Empresa" required>
                                     </div>      
 
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="nome_do_pai_pessoa_fisica"> Nome do pai </label>
-                                        <input type="text" class="form-control" name="nome_do_pai_pessoa_fisica" placeholder="Nome do pai" >
+                                    <div class="col-xl-3 col-lg-3">
+                                        <label for="atividade_pessoa_juridica">Atividade</label>
+                                        <input type="text" class="form-control" name="atividade_pessoa_juridica" placeholder="Atividade" required>
                                     </div> 
 
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="cpf_pessoa_fisica"> CPF </label>
-                                        <input type="number" class="form-control" name="cpf_pessoa_fisica" placeholder="123.456.789-00" required disabled>
+                                    <div class="col-xl-3 col-lg-3">
+                                        <label for="numero_registro_pessoa_juridica">Registro</label>
+                                        <input type="number" class="form-control" name="numero_registro_pessoa_juridica" placeholder="Número de Registro">
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-3">
+                                        <label for="faturamento_pessoa_juridica">Faturamento</label>
+                                        <input type="number" class="form-control" name="faturamento_pessoa_juridica" placeholder="Número de Registro" required>
                                     </div>
 
                                 </div>
@@ -406,42 +408,16 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="naturalidade_pessoa_fisica">Naturalidade</label>
-                                        <input type="text" class="form-control" name="naturalidade_pessoa_fisica"  placeholder="Naturalidade" required>
+                                        <label for="cnpj_pessoa_juridica">CNPJ</label>
+                                        <input type="text" class="form-control" name="cnpj_pessoa_juridica"  placeholder="CNPJ" required>
                                     </div>      
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="nacionalidade_pessoa_fisica">Nacionalidade</label>
-                                        <input type="text" class="form-control" name="nacionalidade_pessoa_fisica"  placeholder="Nacionalidade" required>
+                                        <label for="inscricao_estadual_pessoa_juridica">Inscrição</label>
+                                        <input type="text" class="form-control" name="inscricao_estadual_pessoa_juridica"  placeholder="Inscrição Estadual">
                                     </div> 
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="rg_pessoa_fisica"> Número do RG </label>
-                                        <input type="number" class="form-control" name="rg_pessoa_fisica" placeholder="Número do RG" required>
-                                    </div>
-                                    
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for ="orgao_expeditor_pessoa_fisica"> Orgão Expedidor</label>
-                                        <input type="text" class="form-control" name="orgao_expeditor_pessoa_fisica" placeholder="Orgão Expedidor" required>
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                    
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="estado_civil_pessoa_fisica">Estado Civil</label>
-                                        <select class="form-control form-selecao" name="estado_civil_pessoa_fisica" required>
-                                            <option selected disabled>Escolha aqui</option>
-                                            <option value="solteiro">Solteiro</option>
-                                            <option value="casado">Casado</option>
-                                            <option value="divorciado">Divorciado</option>
-
-                                        </select>
-                                    </div>
-
-                                </div>
-                        
+                                </div>                        
                                                             
 
                             </div>
@@ -452,18 +428,18 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="celular_pessoa_fisica">Núm. do Celular </label>
-                                        <input type="number" class="form-control" name="celular_pessoa_fisica"  placeholder="(01) 2345-6789" required>
+                                        <label for="cep_pessoa_juridica">CEP </label>
+                                        <input type="number" class="form-control" name="cep_pessoa_juridica"  placeholder="CEP" required>
                                     </div>      
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="telefone_fixo_pessoa_fisica">Telefone Residencial </label>
-                                        <input type="number" class="form-control" name="telefone_fixo_pessoa_fisica" placeholder="1234-5678">
+                                    <div class="col-xl-6 col-lg-3">
+                                        <label for="rua_pessoa_juridica">Endereço</label>
+                                        <input type="text" class="form-control" name="rua_pessoa_juridica" placeholder="Rua/Avenida" required>
                                     </div>
 
-                                    <div class="col-xl-6 col-lg-6">
-                                        <label for="email_pessoa_fisica">E-mail </label>
-                                        <input type="text" class="form-control" name="email_pessoa_fisica" placeholder="exemplo@email.com" required>
+                                    <div class="col-xl-3 col-lg-6">
+                                        <label for="bairro_pessoa_juridica">Bairro</label>
+                                        <input type="text" class="form-control" name="bairro_pessoa_juridica" placeholder="Bairro" required>
                                                                                
                                     </div>
                 
@@ -471,44 +447,39 @@
 
                                 <div class="form-row">
 
-                                    <div class="col-xl-3 col-lg-3">
-                                            <label for="cep_pessoa_fisica">CEP</label>
-                                            <input type="number" class="form-control" name="cep_pessoa_fisica" placeholder="01234-567" required>
+                                    <div class="col-xl-5 col-lg-3">
+                                            <label for="complemento_pessoa_juridica">Complemento</label>
+                                            <input type="text" class="form-control" name="complemento_pessoa_juridica" placeholder="Complemento" >
                                     </div>      
 
-                                    <div class="col-xl-6 col-lg-6">
-                                        <label for="rua_pessoa_fisica">Rua/Avenida </label>
-                                        <input type="text" class="form-control" name="rua_pessoa_fisica" placeholder="Nome da Rua/Avenida" required>
+                                    <div class="col-xl-2 col-lg-6">
+                                        <label for="numero_pessoa_juridica">Número</label>
+                                        <input type="number" class="form-control" name="numero_pessoa_juridica" placeholder="Num." required>
                                     </div> 
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="bairro_pessoa_fisica">Bairro</label>
-                                        <input type="text" class="form-control" name="bairro_pessoa_fisica" placeholder="Bairro" required>
+                                        <label for="cidade_pessoa_juridica">Cidade</label>
+                                        <input type="text" class="form-control" name="cidade_pessoa_juridica" placeholder="Cidade" required>
                                     </div>
+
+                                    <div class="col-xl-2 col-lg-6">
+                                        <label for="estado_pessoa_juridica">UF</label>
+                                        <input type="text" class="form-control" name="estado_pessoa_juridica" placeholder="UF." required>
+                                    </div> 
 
                                 </div>
 
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="complemento_pessoa_fisica">Complemento</label>
-                                        <input type="text" class="form-control" name="complemento_pessoa_fisica"  placeholder="Complemento">
+                                        <label for="telefone_pessoa_juridica">Telefone</label>
+                                        <input type="number" class="form-control" name="telefone_pessoa_juridica"  placeholder="(01) 2345-6789" required>
                                     </div>      
 
-                                    <div class="col-xl-2 col-lg-2">
-                                        <label for="numero_pessoa_fisica">Núm.</label>
-                                        <input type="number" class="form-control" name="numero_pessoa_fisica"  placeholder="N." required>
+                                    <div class="col-xl-5 col-lg-2">
+                                        <label for="email_pessoa_juridica">Núm.</label>
+                                        <input type="text" class="form-control" name="email_pessoa_juridica"  placeholder="email@exemplo.com" required>
                                     </div> 
-
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="cidade_pessoa_fisica"> Cidade </label>
-                                        <input type="text" class="form-control" name="cidade_pessoa_fisica" placeholder="Cidade" required>
-                                    </div>
-                                    
-                                    <div class="col-xl-2 col-lg-2">
-                                        <label for ="estado_pessoa_fisica"> UF</label>
-                                        <input type="text" class="form-control" name="estado_pessoa_fisica" placeholder="UF" required>
-                                    </div>
 
                                 </div> 
 
@@ -516,32 +487,26 @@
 
                             <div class="col-xl-12 col-lg-7 etapaform">
 
-                                <h2 style="text-align: center; margin-top:2rem;">Dados Financeiros</h2>
+                                <h2 style="text-align: center; margin-top:2rem;">Sócio/Representante</h2>
 
                                 <div class="form-row">
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="profissao_pessoa_fisica">Profissão</label>
-                                        <input type="text" class="form-control" name="profissao_pessoa_fisica"  placeholder="Profissão" required>
+                                    <div class="col-xl-6 col-lg-3">
+                                        <label for="nome_socio_pessoa_juridica">Nome do Sócio/Representante</label>
+                                        <input type="text" class="form-control" name="nome_socio_pessoa_juridica"  placeholder="Nome" required>
                                     </div>      
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="empresa_empregadora_pessoa_fisica">Empresa empregadora </label>
-                                        <input type="text" class="form-control" name="empresa_empregadora_pessoa_fisica" placeholder="Empresa Empregadora" required>
+                                        <label for="data_de_nascimento_socio_pessoa_juridica">Data de nascimento</label>
+                                        <input type="date" class="form-control" name="data_de_nascimento_socio_pessoa_juridica"required>
                                     </div>
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="renda_mensal_pessoa_fisica">Renda mensal </label>
-                                        <input type="number" class="form-control" name="renda_mensal_pessoa_fisica" placeholder="Renda mensal" required>
-                                                                               
-                                    </div>
-
-                                    <div class="col-xl 2">
-                                        <label for="score_pessoa_fisica">Score</label>
-                                        <select class="form-control" id="score_pessoa_fisica" required placeholder="Score">
-                                            <option disabled selected>Score</option>
-                                            <option value="true">Sim</option>
-                                            <option value="false">Não</option>
+                                    <div class="col-xl 3">
+                                        <label for="genero_socio_pessoa_juridica">Gênero</label>
+                                        <select class="form-control" id="genero_socio_pessoa_juridica" required>
+                                            <option disabled selected>Gênero</option>
+                                            <option value="masculino">Masculino</option>
+                                            <option value="feminino">Feminino</option>
                                         </select>
                                     </div>
                 
@@ -549,64 +514,47 @@
 
                                 <div class="form-row">
 
-                                    <div class="col-xl-3 col-lg-3">
-                                            <label for="ppe_pessoa_fisica">PPE</label>
-                                            <select class="form-control" id="ppe_pessoa_fisica" required placeholder="PPE">
-                                                <option disabled selected>PPE</option>
-                                                <option value="true">Sim</option>
-                                                <option value="false">Não</option>
-                                            </select>
+                                    <div class="col-xl-6 col-lg-3">
+                                            <label for="nome_mae_socio_pessoa_juridica">Nome da Mãe</label>
+                                            <input type="text" class="form-control" id="nome_mae_socio_pessoa_juridica" required placeholder="Nome da mãe">
                                     </div>      
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="casa_propria_pessoa_fisica">Casa própria</label>
-                                        <select class="form-control" id="casa_propria_pessoa_fisica" required placeholder="Casa Própria">
-                                            <option disabled selected>Casa própria</option>
-                                            <option value="true">Sim</option>
-                                            <option value="false">Não</option>
-                                        </select>
-                                    </div> 
+                                    <div class="col-xl-6 col-lg-3">
+                                        <label for="nome_pai_socio_pessoa_juridica">Nome do Pai</label>
+                                        <input type="text" class="form-control" id="nome_pai_socio_pessoa_juridica" placeholder="Nome do pai">
 
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="valor_aluguel_pessoa_fisica"> Aluguel</label>
-                                        <input type="number" class="form-control" name="valor_aluguel_pessoa_fisica" placeholder="Aluguel">
-                                    </div>
-
-                                    <div class="col-xl-3 col-lg-3">
-                                        <label for="patrimonio">Casa própria</label>
-                                        <select class="form-control" id="patrimonio" required placeholder="Patrimônio" required>
-                                            <option disabled selected>Patrimônio</option>
-                                            <option value="true">Tem</option>
-                                            <option value="false">Não tem</option>
-                                        </select>
                                     </div> 
 
                                 </div>
 
                                 <div class ="form-row">
 
-                                    <div class="col-xl-4 col-lg-4">
-                                        <label for="referencia_pessoal_pessoa_fisica">Referência Pessoal</label>
-                                        <input type="text" class="form-control" name="referencia_pessoal_pessoa_fisica"  placeholder="Nome da referência pessoal" required>
+                                    <div class="col-xl-3 col-lg-4">
+                                        <label for="ppe_socio_pessoa_juridica">PPE</label>
+                                        <select class="form-control" name="ppe_socio_pessoa_juridica"  placeholder="PPE" required> 
+                                            <option disabled selected>PPE</option>
+                                            <option value="true">Sim</option>
+                                            <option value="false">Não</option>
+                                        </select>
                                     </div>      
 
-                                    <div class="col-xl-2 col-lg-2">
-                                        <label for="grau_parentesco_pessoa_fisica">Parentesco</label>
-                                        <input type="text" class="form-control" name="grau_parentesco_pessoa_fisica"  placeholder="Parentesco" required>
+                                    <div class="col-xl-4 col-lg-2">
+                                        <label for="nacionalidade_socio_pessoa_juridica">Nacionalidade</label>
+                                        <input type="text" class="form-control" name="nacionalidade_socio_pessoa_juridica"  placeholder="Nacionalidade" required>
                                     </div> 
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="telefone_pessoal_pessoa_fisica">Telefone</label>
-                                        <input type="text" class="form-control" name="telefone_pessoal_pessoa_fisica" placeholder="Telefone" required>
+                                        <label for="cpf_socio_pessoa_juridica">CPF</label>
+                                        <input type="number" class="form-control" name="cpf_socio_pessoa_juridica" placeholder="CPF" required>
                                     </div>
 
-                                    <div class="col-xl-3 col-lg-3">
+                                    <div class="col-xl-2 col-lg-3">
                                         <label for="bem">Bem</label>
-                                        <select class="form-control" id="bem" required placeholder="Bem" required>
+                                        <select class="form-control" id="bem" required placeholder="Bem">
                                             <option disabled selected>Bem</option>
                                             <option value="imovel">Imóvel</option>
                                             <option value="veiculo">Veículo</option>
-                                            <option value ="Serviço">Serviço</option>
+                                            <option value ="servico">Serviço</option>
                                         </select>
 
                                     </div> 
@@ -618,13 +566,13 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-8">
-                                        <label for="primeiro_patrimonio_pessoa_fisica">Patrimônio</label>
-                                        <input type="text" class="form-control" name="primeiro_patrimonio_pessoa_fisica"  placeholder="Patrimônio">
+                                        <label for="primeiro_patrimonio_pessoa_juridica">Patrimônio</label>
+                                        <input type="text" class="form-control" name="primeiro_patrimonio_pessoa_juridica"  placeholder="Patrimônio">
                                     </div>      
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="valor_primeiro_patrimonio_pessoa_fisica">Valor</label>
-                                        <input type="number" class="form-control" name="valor_primeiro_patrimonio_pessoa_fisica"  placeholder="Valor">
+                                        <label for="valor_primeiro_patrimonio_pessoa_juridica">Valor</label>
+                                        <input type="number" class="form-control" name="valor_primeiro_patrimonio_pessoa_juridica"  placeholder="Valor">
                                     </div> 
                                     
                                 </div>
@@ -632,13 +580,13 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-8">
-                                        <label for="segundo_patrimonio_pessoa_fisica">Patrimônio</label>
-                                        <input type="text" class="form-control" name="primeiro_patrimonio_pessoa_fisica"  placeholder="Patrimônio">
+                                        <label for="segundo_patrimonio_pessoa_juridica">Patrimônio</label>
+                                        <input type="text" class="form-control" name="primeiro_patrimonio_pessoa_juridica"  placeholder="Patrimônio">
                                     </div>      
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="valor_segundo_patrimonio_pessoa_fisica">Valor</label>
-                                        <input type="number" class="form-control" name="valor_segundo_patrimonio_pessoa_fisica"  placeholder="Valor">
+                                        <label for="valor_segundo_patrimonio_pessoa_juridica">Valor</label>
+                                        <input type="number" class="form-control" name="valor_segundo_patrimonio_pessoa_juridica"  placeholder="Valor">
                                     </div> 
                                     
                                 </div>
@@ -651,18 +599,18 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="tipo_imovel_pessoa_fisica">Tipo de imóvel</label>
-                                        <input type="text" class="form-control" name="tipo_imovel_pessoa_fisica"  placeholder="Tipo de imóvel" required>
+                                        <label for="tipo_imovel_pessoa_juridica">Tipo de imóvel</label>
+                                        <input type="text" class="form-control" name="tipo_imovel_pessoa_juridica"  placeholder="Tipo de imóvel">
                                     </div>      
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="cep_imovel_pessoa_fisica">CEP do imóvel</label>
-                                        <input type="number" class="form-control" name="cep_imovel_pessoa_fisica" placeholder="CEP">
+                                        <label for="cep_imovel_pessoa_juridica">CEP do imóvel</label>
+                                        <input type="number" class="form-control" name="cep_imovel_pessoa_juridica" placeholder="CEP" required>
                                     </div>
 
                                     <div class="col-xl-6 col-lg-6">
-                                        <label for="rua_imovel_pessoa_fisica">Endereço do imóvel </label>
-                                        <input type="text" class="form-control" name="rua_imovel_pessoa_fisica" placeholder="Rua/Avenida">                                                                               
+                                        <label for="rua_imovel_pessoa_juridica">Endereço do imóvel </label>
+                                        <input type="text" class="form-control" name="rua_imovel_pessoa_juridica" placeholder="Rua/Avenida" required>                                                                               
                                     </div>
                 
                                 </div>
@@ -671,18 +619,18 @@
 
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="utilidade_imovel_pessoa_fisica">Finalidade </label>
-                                        <input type="text" class="form-control" name="utilidade_imovel_pessoa_fisica"  placeholder="Finalidade">
+                                        <label for="utilidade_imovel_pessoa_juridica">Finalidade </label>
+                                        <input type="text" class="form-control" name="utilidade_imovel_pessoa_juridica"  placeholder="Finalidade">
                                     </div> 
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="bairro_imovel_pessoa_fisica"> Bairro do imóvel </label>
-                                        <input type="text" class="form-control" name="bairro_imovel_pessoa_fisica" placeholder="Bairro">
+                                        <label for="bairro_imovel_pessoa_juridica"> Bairro do imóvel </label>
+                                        <input type="text" class="form-control" name="bairro_imovel_pessoa_juridica" placeholder="Bairro">
                                     </div>  
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="complemento_imovel_pessoa_fisica">Complemento do imóvel</label>
-                                        <input type="text" class="form-control" name="complemento_imovel_pessoa_fisica"  placeholder="Complemento">
+                                        <label for="complemento_imovel_pessoa_juridica">Complemento do imóvel</label>
+                                        <input type="text" class="form-control" name="complemento_imovel_pessoa_juridica"  placeholder="Complemento">
                                     </div>  
 
                                 </div>
@@ -690,45 +638,45 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="numero_imovel_pessoa_fisica">Número</label>
-                                        <input type="text" class="form-control" name="numero_imovel_pessoa_fisica"  placeholder="Número">
+                                        <label for="numero_imovel_pessoa_juridica">Número</label>
+                                        <input type="text" class="form-control" name="numero_imovel_pessoa_juridica"  placeholder="Número">
                                     </div> 
 
                                     
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="cidade_imovel_pessoa_fisica">Cidade</label>
-                                        <input type="text" class="form-control" name="cidade_imovel_pessoa_fisica" placeholder="Cidade">
+                                        <label for ="cidade_imovel_pessoa_juridica">Cidade</label>
+                                        <input type="text" class="form-control" name="cidade_imovel_pessoa_juridica" placeholder="Cidade">
                                     </div>
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="estado_imovel_pessoa_fisica">UF</label>
-                                        <input type="text" class="form-control" name="estado_imovel_pessoa_fisica" placeholder="UF">
+                                        <label for ="estado_imovel_pessoa_juridica">UF</label>
+                                        <input type="text" class="form-control" name="estado_imovel_pessoa_juridica" placeholder="UF">
                                     </div>
 
                                 </div> 
 
                                 <div class="form-row">
                                     <div class="col-xl-12">
-                                        <label for="observacao_imovel_pessoa_fisica">Observações</label>
-                                        <textarea name="observacao_imovel_pessoa_fisica" class="form-control" placeholder="Relate informações adicionais"></textarea>                                                                               
+                                        <label for="observacao_imovel_pessoa_juridica">Observações</label>
+                                        <textarea name="observacao_imovel_pessoa_juridica" class="form-control" placeholder="Relate informações adicionais"></textarea>                                                                               
                                     </div>
                                 </div>
 
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="consultor_analise_pessoa_fisica">Nome do consultor</label>
-                                        <input type="text" class="form-control" name="consultor_analise_pessoa_fisica"  placeholder="Consultor" disabled>
+                                        <label for="consultor_analise_pessoa_juridica">Nome do consultor</label>
+                                        <input type="text" class="form-control" name="consultor_analise_pessoa_juridica"  placeholder="Consultor" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="data_atendimento_pessoa_fisica">Data de criação</label>
-                                        <input type="date" class="form-control" name="data_atendimento_pessoa_fisica" disabled>
+                                        <label for ="data_atendimento_pessoa_juridica">Data de criação</label>
+                                        <input type="date" class="form-control" name="data_atendimento_pessoa_juridica" disabled>
                                     </div>
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="validade_proposta_pessoa_fisica">Data de vencimento</label>
-                                        <input type="date" class="form-control" name="validade_proposta_pessoa_fisica" disabled>
+                                        <label for ="validade_proposta_pessoa_juridica">Data de vencimento</label>
+                                        <input type="date" class="form-control" name="validade_proposta_pessoa_juridica" disabled>
                                     </div>
 
                                 </div> 
@@ -736,13 +684,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="valor_bruto_pessoa_fisica">Valor</label>
-                                        <input type="number" class="form-control" name="valor_bruto_pessoa_fisica"  placeholder="Valor" required>
+                                        <label for="valor_bruto_pessoa_juridica">Valor</label>
+                                        <input type="number" class="form-control" name="valor_bruto_pessoa_juridica"  placeholder="Valor" required>
                                     </div> 
 
                                     <div class="col-xl 3">
-                                        <label for="tipo_credito_pessoa_fisica">Tipo de crédito</label>
-                                        <select class="form-control" id="tipo_credito_pessoa_fisica" required placeholder="Crédito">
+                                        <label for="tipo_credito_pessoa_juridica">Tipo de crédito</label>
+                                        <select class="form-control" id="tipo_credito_pessoa_juridica" required placeholder="Crédito">
                                             <option disabled selected>Crédito</option>
                                             <option value="cdc">CDC</option>
                                             <option value="consorcio">Consórcio</option>
@@ -751,13 +699,13 @@
 
                                     
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="valor_adesao_pessoa_fisica">Valor de Adesão</label>
-                                        <input type="number" class="form-control" name="valor_adesao_pessoa_fisica" placeholder="Valor" disabled>
+                                        <label for ="valor_adesao_pessoa_juridica">Valor de Adesão</label>
+                                        <input type="number" class="form-control" name="valor_adesao_pessoa_juridica" placeholder="Valor" disabled>
                                     </div>
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="estado_analise_pessoa_fisica">Estado da proposta</label>
-                                        <input type="text" class="form-control" name="estado_analise_pessoa_fisica" placeholder="Estado" disabled>
+                                        <label for ="estado_analise_pessoa_juridica">Estado da proposta</label>
+                                        <input type="text" class="form-control" name="estado_analise_pessoa_juridica" placeholder="Estado" disabled>
                                     </div>
 
                                 </div>
@@ -765,13 +713,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="parcela1_pessoa_fisica">Parcela</label>
-                                        <input type="text" class="form-control" name="parcela1_pessoa_fisica"  placeholder="Parcela" disabled>
+                                        <label for="parcela1_pessoa_juridica">Parcela</label>
+                                        <input type="text" class="form-control" name="parcela1_pessoa_juridica"  placeholder="Parcela" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="valor_parcela1_pessoa_fisica">Valor da parcela</label>
-                                        <input type="number" class="form-control" name="valor_parcela1_pessoa_fisica" placeholder="Valor da parcela" disabled>
+                                        <label for ="valor_parcela1_pessoa_juridica">Valor da parcela</label>
+                                        <input type="number" class="form-control" name="valor_parcela1_pessoa_juridica" placeholder="Valor da parcela" disabled>
                                     </div>
 
                                 </div> 
@@ -789,8 +737,8 @@
                                 <div class="form-row">
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="tipo_veiculo_pessoa_fisica">Tipo de veículo </label>
-                                        <select class="form-control" name="tipo_veiculo_pessoa_fisica"  required>
+                                        <label for="tipo_veiculo_pessoa_juridica">Tipo de veículo </label>
+                                        <select class="form-control" name="tipo_veiculo_pessoa_juridica">
                                             <option selected disabled>Veículo</option>
                                             <option value="carro">Carro</option>
                                             <option value="moto">Moto</option>
@@ -799,28 +747,28 @@
                                     </div>                                 
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="estado_veiculo_pessoa_fisica">Estado</label>
-                                        <input type="text" class="form-control" name="estado_veiculo_pessoa_fisica"  placeholder="Estado">
+                                        <label for="estado_veiculo_pessoa_juridica">Estado</label>
+                                        <input type="text" class="form-control" name="estado_veiculo_pessoa_juridica"  placeholder="Estado">
                                     </div>      
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="marca_veiculo_pessoa_fisica">Marca do veículo</label>
-                                        <input type="text" class="form-control" name="marca_veiculo_pessoa_fisica" placeholder="Marca">
+                                        <label for="marca_veiculo_pessoa_juridica">Marca do veículo</label>
+                                        <input type="text" class="form-control" name="marca_veiculo_pessoa_juridica" placeholder="Marca">
                                     </div>
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="modelo_veiculo_pessoa_fisica">Modelo do veículo</label>
-                                        <input type="text" class="form-control" name="modelo_veiculo_pessoa_fisica" placeholder="Modelo">                                                                               
+                                        <label for="modelo_veiculo_pessoa_juridica">Modelo do veículo</label>
+                                        <input type="text" class="form-control" name="modelo_veiculo_pessoa_juridica" placeholder="Modelo">                                                                               
                                     </div>
 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="ano_veiculo_pessoa_fisica">Ano do modelo</label>
-                                        <input type="number" class="form-control" name="ano_veiculo_pessoa_fisica" placeholder="Ano do modelo">                                                                               
+                                        <label for="ano_veiculo_pessoa_juridica">Ano do modelo</label>
+                                        <input type="number" class="form-control" name="ano_veiculo_pessoa_juridica" placeholder="Ano do modelo">                                                                               
                                     </div>
                 
                                     <div class="col-xl-2 col-lg-2">
-                                        <label for="ano_frabricação_veiculo_pessoa_fisica">Ano de fabricação</label>
-                                        <input type="number" class="form-control" name="ano_frabricação_veiculo_pessoa_fisica" placeholder="Ano de fabricação">                                                                               
+                                        <label for="ano_frabricação_veiculo_pessoa_juridica">Ano de fabricação</label>
+                                        <input type="number" class="form-control" name="ano_frabricação_veiculo_pessoa_juridica" placeholder="Ano de fabricação">                                                                               
                                     </div>
 
                                 </div>
@@ -828,18 +776,18 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="consultor_analise_pessoa_fisica">Nome do consultor</label>
-                                        <input type="text" class="form-control" name="consultor_analise_pessoa_fisica"  placeholder="Consultor" disabled>
+                                        <label for="consultor_analise_pessoa_juridica">Nome do consultor</label>
+                                        <input type="text" class="form-control" name="consultor_analise_pessoa_juridica"  placeholder="Consultor" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="data_atendimento_pessoa_fisica">Data de criação</label>
-                                        <input type="date" class="form-control" name="data_atendimento_pessoa_fisica" placeholder="" disabled>
+                                        <label for ="data_atendimento_pessoa_juridica">Data de criação</label>
+                                        <input type="date" class="form-control" name="data_atendimento_pessoa_juridica" placeholder="" disabled>
                                     </div>
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="validade_proposta_pessoa_fisica">Data de vencimento</label>
-                                        <input type="date" class="form-control" name="validade_proposta_pessoa_fisica" placeholder="" disabled>
+                                        <label for ="validade_proposta_pessoa_juridica">Data de vencimento</label>
+                                        <input type="date" class="form-control" name="validade_proposta_pessoa_juridica" placeholder="" disabled>
                                     </div>
 
                                 </div> 
@@ -847,13 +795,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="valor_bruto_pessoa_fisica">Valor</label>
-                                        <input type="number" class="form-control" name="valor_bruto_pessoa_fisica"  placeholder="Valor" required>
+                                        <label for="valor_bruto_pessoa_juridica">Valor</label>
+                                        <input type="number" class="form-control" name="valor_bruto_pessoa_juridica"  placeholder="Valor" required>
                                     </div> 
 
                                     <div class="col-xl 3">
-                                        <label for="tipo_credito_pessoa_fisica">Tipo de crédito</label>
-                                        <select class="form-control" id="tipo_credito_pessoa_fisica" required placeholder="Crédito">
+                                        <label for="tipo_credito_pessoa_juridica">Tipo de crédito</label>
+                                        <select class="form-control" id="tipo_credito_pessoa_juridica" required placeholder="Crédito">
                                             <option disabled selected>Crédito</option>
                                             <option value="cdc">CDC</option>
                                             <option value="consorcio">Consórcio</option>
@@ -862,13 +810,13 @@
 
                                     
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="valor_adesao_pessoa_fisica">Valor de Adesão</label>
-                                        <input type="number" class="form-control" name="valor_adesao_pessoa_fisica" placeholder="Valor" disabled>
+                                        <label for ="valor_adesao_pessoa_juridica">Valor de Adesão</label>
+                                        <input type="number" class="form-control" name="valor_adesao_pessoa_juridica" placeholder="Valor" disabled>
                                     </div>
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="estado_analise_pessoa_fisica">Estado da proposta</label>
-                                        <input type="text" class="form-control" name="estado_analise_pessoa_fisica" placeholder="Estado" disabled>
+                                        <label for ="estado_analise_pessoa_juridica">Estado da proposta</label>
+                                        <input type="text" class="form-control" name="estado_analise_pessoa_juridica" placeholder="Estado" disabled>
                                     </div>
 
                                 </div>
@@ -876,13 +824,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="parcela1_pessoa_fisica">Parcela</label>
-                                        <input type="text" class="form-control" name="parcela1_pessoa_fisica"  placeholder="Parcela" disabled>
+                                        <label for="parcela1_pessoa_juridica">Parcela</label>
+                                        <input type="text" class="form-control" name="parcela1_pessoa_juridica"  placeholder="Parcela" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="valor_parcela1_pessoa_fisica">Valor da parcela</label>
-                                        <input type="number" class="form-control" name="valor_parcela1_pessoa_fisica" placeholder="Valor da parcela" disabled>
+                                        <label for ="valor_parcela1_pessoa_juridica">Valor da parcela</label>
+                                        <input type="number" class="form-control" name="valor_parcela1_pessoa_juridica" placeholder="Valor da parcela" disabled>
                                     </div>
 
                                 </div> 
@@ -900,39 +848,39 @@
                                 <div class="form-row">                             
 
                                     <div class="col-xl-6 col-lg-6">
-                                        <label for="nome_outros_pessoa_fisica">Nome do serviço</label>
-                                        <input type="text" class="form-control" name="nome_outros_pessoa_fisica"  placeholder="Nome">
+                                        <label for="nome_servico_pessoa_juridica">Nome do serviço</label>
+                                        <input type="text" class="form-control" name="nome_servico_pessoa_juridica"  placeholder="Nome" required>
                                     </div>      
 
                                     <div class="col-xl-6 col-lg-6">
-                                        <label for="tipo_outros_pessoa_fisica">Tipo de serviço</label>
-                                        <input type="text" class="form-control" name="tipo_outros_pessoa_fisica" placeholder="Tipo">
+                                        <label for="tipo_servico_pessoa_juridica">Tipo de serviço</label>
+                                        <input type="text" class="form-control" name="tipo_servico_pessoa_juridica" placeholder="Tipo" required>
                                     </div>
 
                                 </div>
 
                                 <div class="form-row">
                                     <div class="col-xl-12">
-                                        <label for="descricao_outros_pessoa_fisica">Descrição do serviço</label>
-                                        <textarea name="descricao_outros_pessoa_fisica" class="form-control" placeholder="Descreva o serviço em questão"></textarea>                                                                               
+                                        <label for="descricacao_servico_pessoa_juridica">Descrição do serviço</label>
+                                        <textarea name="descricacao_servico_pessoa_juridica" class="form-control" placeholder="Descreva o serviço em questão" required></textarea>                                                                               
                                     </div>
                                 </div>
 
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="consultor_analise_pessoa_fisica">Nome do consultor</label>
-                                        <input type="text" class="form-control" name="consultor_analise_pessoa_fisica"  placeholder="Consultor" disabled>
+                                        <label for="consultor_analise_pessoa_juridica">Nome do consultor</label>
+                                        <input type="text" class="form-control" name="consultor_analise_pessoa_juridica"  placeholder="Consultor" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="data_atendimento_pessoa_fisica">Data de criação</label>
-                                        <input type="date" class="form-control" name="data_atendimento_pessoa_fisica" placeholder="" disabled>
+                                        <label for ="data_atendimento_pessoa_juridica">Data de criação</label>
+                                        <input type="date" class="form-control" name="data_atendimento_pessoa_juridica" placeholder="" disabled>
                                     </div>
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="validade_proposta_pessoa_fisica">Data de vencimento</label>
-                                        <input type="date" class="form-control" name="validade_proposta_pessoa_fisica" placeholder="" disabled>
+                                        <label for ="validade_proposta_pessoa_juridica">Data de vencimento</label>
+                                        <input type="date" class="form-control" name="validade_proposta_pessoa_juridica" placeholder="" disabled>
                                     </div>
 
                                 </div> 
@@ -940,13 +888,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for="valor_bruto_pessoa_fisica">Valor</label>
-                                        <input type="number" class="form-control" name="valor_bruto_pessoa_fisica"  placeholder="Valor" required>
+                                        <label for="valor_bruto_pessoa_juridica">Valor</label>
+                                        <input type="number" class="form-control" name="valor_bruto_pessoa_juridica"  placeholder="Valor" required>
                                     </div> 
 
                                     <div class="col-xl 3">
-                                        <label for="tipo_credito_pessoa_fisica">Tipo de crédito</label>
-                                        <select class="form-control" id="tipo_credito_pessoa_fisica" required placeholder="Crédito">
+                                        <label for="tipo_credito_pessoa_juridica">Tipo de crédito</label>
+                                        <select class="form-control" id="tipo_credito_pessoa_juridica" required placeholder="Crédito">
                                             <option disabled selected>Crédito</option>
                                             <option value="cdc">CDC</option>
                                             <option value="consorcio">Consórcio</option>
@@ -955,13 +903,13 @@
 
                                     
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="valor_adesao_pessoa_fisica">Valor de Adesão</label>
-                                        <input type="number" class="form-control" name="valor_adesao_pessoa_fisica" placeholder="Valor" disabled>
+                                        <label for ="valor_adesao_pessoa_juridica">Valor de Adesão</label>
+                                        <input type="number" class="form-control" name="valor_adesao_pessoa_juridica" placeholder="Valor" disabled>
                                     </div>
 
                                     <div class="col-xl-3 col-lg-3">
-                                        <label for ="estado_analise_pessoa_fisica">Estado da proposta</label>
-                                        <input type="text" class="form-control" name="estado_analise_pessoa_fisica" placeholder="Estado" disabled>
+                                        <label for ="estado_analise_pessoa_juridica">Estado da proposta</label>
+                                        <input type="text" class="form-control" name="estado_analise_pessoa_juridica" placeholder="Estado" disabled>
                                     </div>
 
                                 </div>
@@ -969,13 +917,13 @@
                                 <div class ="form-row">
 
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for="parcela1_pessoa_fisica">Parcela</label>
-                                        <input type="text" class="form-control" name="parcela1_pessoa_fisica"  placeholder="Parcela" disabled>
+                                        <label for="parcela1_pessoa_juridica">Parcela</label>
+                                        <input type="text" class="form-control" name="parcela1_pessoa_juridica"  placeholder="Parcela" disabled>
                                     </div> 
                                     
                                     <div class="col-xl-4 col-lg-4">
-                                        <label for ="valor_parcela1_pessoa_fisica">Valor da parcela</label>
-                                        <input type="date" class="form-control" name="valor_parcela1_pessoa_fisica" placeholder="Valor da parcela" disabled>
+                                        <label for ="valor_parcela1_pessoa_juridica">Valor da parcela</label>
+                                        <input type="date" class="form-control" name="valor_parcela1_pessoa_juridica" placeholder="Valor da parcela" disabled>
                                     </div>
 
                                 </div> 
